@@ -1,0 +1,36 @@
+[user]
+	email = buutuud@gmail.com
+	name = happyyi
+[alias]
+	co = checkout
+	ci = commit -a
+	st = status
+	br = branch
+	oneline = log --pretty=oneline --since='2 days ago'
+	onelog = log -p -1
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = auto
+[core]
+	editor = vim
+	autocrlf = True
+[credential]
+	helper = wincred
+[gui]
+	encoding = utf-8
+[merge]
+	tool = BeyondCompare4
+[diff]
+	guitool = beyondcompare4
+[difftool "BeyondCompare4"]
+	path = C:/Program Files (x86)/Beyond Compare 4/bcomp.exe
+[i18n]
+	filesEncoding = utf-8
+[difftool "beyondcompare4"]
+	path = C:/Program Files (x86)/Beyond Compare 4/bcomp.exe
+	cmd = \"C:/Program Files (x86)/Beyond Compare 4/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
+[mergetool "BeyondCompare4"]
+	path = C:/Program Files (x86)/Beyond Compare 4/bcomp.exe
+	cmd = \"C:/Program Files (x86)/Beyond Compare 4/bcomp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
