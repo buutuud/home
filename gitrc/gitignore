@@ -1,0 +1,17 @@
+# vim files
+*~
+.*.sw[po]
+/Session.vim
+# kde filemanager files
+.directory
+/**/.directory
+# ctags
+tags
+# irb-related files
+.irb*
+# vagrant
+/.vagrant
+# OSX Desktop Service Store files
+.DS_Store
+# libre/open office lock files
+.~lock.*
