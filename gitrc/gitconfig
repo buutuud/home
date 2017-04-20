@@ -22,7 +22,9 @@
 
 [alias]
         co=checkout
+        ci=commit
         s=status
+        st=status
         d=diff
         dw=diff --color-words
         dc=diff --cached
