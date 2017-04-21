@@ -11,8 +11,7 @@ silent>是指什么?
 :map <silent> ,w /abcd<CR> 
 你在输入,w查找abcd时，命令行上不会显示/abcd，如果没有<silent>参数就会显示出来 
 ```
- 视图
-==
+##视图
 ```
 n 普通 
 v 可视和选择 
