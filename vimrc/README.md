@@ -29,3 +29,13 @@ c 命令行
 ```
 git clone -b vimrc git@github.com:buutuud/learn-vim.git .vim_runtime
 ```
+##常用命令
+```shell
+ciw > 替换单词
+.   > do ap operation
+.   > do ap operation
+.   > do ap operation
+.   > do ap operation
+.   > do ap operation
+.   > do ap operation
+```
