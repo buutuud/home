@@ -41,5 +41,6 @@ echo "3.Install Molokai colorscheme"
 
 
 sudo apt-get install ctags
+ln -s `pwd`/vimrc/ ~/.vim_runtime
 
 echo "OK..Installed the Ultimate Vim configuration successfully! Enjoy :-)"
